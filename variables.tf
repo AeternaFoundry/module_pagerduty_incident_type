@@ -17,5 +17,6 @@ EOT
     description  = optional(string)
     enabled      = optional(bool)
   }))
+  # Note: 2 additional provider-side validators are enforced at apply time but not mirrored as validation{} blocks here (bespoke or non-mechanically-translatable).
 }
 
